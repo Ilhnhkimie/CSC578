@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Technical Documentation Page</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav id="navbar">
+    <header>Web Development Docs</header>
+    <a class="nav-link" href="#HTML">HTML</a>
+    <a class="nav-link" href="#CSS">CSS</a>
+    <a class="nav-link" href="#JavaScript">JavaScript</a>
+    <a class="nav-link" href="#APIs">APIs</a>
+    <a class="nav-link" href="#Responsive_Design">Responsive Design</a>
+  </nav>
+
+  <main id="main-doc">
+    <section class="main-section" id="HTML">
+      <header>HTML</header>
+      <p>HTML stands for HyperText Markup Language.</p>
+      <p>It is used to create the structure of web pages.</p>
+      <p>HTML uses tags like <code>&lt;p&gt;</code>, <code>&lt;div&gt;</code>, and <code>&lt;h1&gt;</code>.</p>
+      <p>Each tag serves a specific purpose in document structure.</p>
+      <p>HTML5 introduced new semantic elements.</p>
+      <ul>
+        <li><code>&lt;header&gt;</code></li>
+        <li><code>&lt;nav&gt;</code></li>
+        <li><code>&lt;article&gt;</code></li>
+        <li><code>&lt;section&gt;</code></li>
+        <li><code>&lt;footer&gt;</code></li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="CSS">
+      <header>CSS</header>
+      <p>CSS stands for Cascading Style Sheets.</p>
+      <p>It controls the presentation of web documents.</p>
+      <p>CSS allows for separation of content and design.</p>
+      <p>Selectors are used to apply styles to HTML elements.</p>
+      <p>It supports responsive design through media queries.</p>
+      <pre><code>body {
+  font-family: Arial, sans-serif;
+}</code></pre>
+    </section>
+
+    <section class="main-section" id="JavaScript">
+      <header>JavaScript</header>
+      <p>JavaScript is a programming language for the web.</p>
+      <p>It allows for dynamic content on web pages.</p>
+      <p>You can manipulate the DOM using JavaScript.</p>
+      <p>JavaScript can be used on the server-side via Node.js.</p>
+      <p>Modern JavaScript supports modules and classes.</p>
+      <pre><code>function greet(name) {
+  return `Hello, ${name}!`;
+}</code></pre>
+    </section>
+
+    <section class="main-section" id="APIs">
+      <header>APIs</header>
+      <p>APIs allow different software systems to communicate.</p>
+      <p>They provide a set of rules for accessing resources.</p>
+      <p>REST and GraphQL are popular API paradigms.</p>
+      <p>APIs are used for fetching and sending data.</p>
+      <p>JavaScript can interact with APIs using fetch or axios.</p>
+      <pre><code>fetch('https://api.example.com/data')
+  .then(response => response.json())
+  .then(data => console.log(data));</code></pre>
+    </section>
+
+    <section class="main-section" id="Responsive_Design">
+      <header>Responsive Design</header>
+      <p>Responsive design ensures web pages look good on all devices.</p>
+      <p>It uses flexible layouts and images.</p>
+      <p>Media queries adjust styles for different screen sizes.</p>
+      <p>Responsive design improves usability.</p>
+      <p>CSS frameworks like Bootstrap aid in responsive design.</p>
+      <pre><code>@media (max-width: 600px) {
+  #navbar {
+    display: none;
+  }
+}</code></pre>
+    </section>
+  </main>
+</body>
+</html>
