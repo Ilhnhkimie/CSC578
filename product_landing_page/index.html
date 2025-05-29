@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ProEdge Sports</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header id="header">
+    <img id="header-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Football_Logo.svg/1024px-Football_Logo.svg.png" alt="ProEdge Sports Logo" />
+    <nav id="nav-bar">
+      <a class="nav-link" href="#features">Features</a>
+      <a class="nav-link" href="#video-section">Highlights</a>
+      <a class="nav-link" href="#form-section">Join Now</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="features">
+      <h2>Game-Changing Features</h2>
+      <p>🏟 Real-time match stats</p>
+      <p>📊 Performance analytics</p>
+      <p>📰 Daily sports news & updates</p>
+    </section>
+
+    <section id="video-section">
+      <h2>Watch the Action</h2>
+      <iframe 
+        id="video" 
+        src="https://www.youtube.com/watch?v=B24-0q0vdwE&themeRefresh=1" 
+        title="Sports Highlights"
+        frameborder="0" 
+        allowfullscreen>
+      </iframe>
+    </section>
+
+    <section id="form-section">
+      <h2>Stay In the Game</h2>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input 
+          type="email" 
+          id="email" 
+          name="email" 
+          placeholder="Enter your email" 
+          required 
+        />
+        <input 
+          type="submit" 
+          id="submit" 
+          value="Subscribe" 
+        />
+      </form>
+    </section>
+  </main>
+</body>
+</html>
